@@ -18,11 +18,6 @@ void* routine()
   }
 }
 
-int len(void* array){
-    return sizeof(array)/sizeof(array[0]);
-}
-
-
 int main()
 {
     pthread_t th[4];
